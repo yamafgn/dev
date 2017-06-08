@@ -2,7 +2,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   
   def hello
-    render html: "hello, my world!aaaaaaabbbbb"
+    render html: "hello, my world!aaaaaaabbbbb for push request."
   end
 
   def goodbye
